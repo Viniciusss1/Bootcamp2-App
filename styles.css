@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    color: #222;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #1769aa;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+/* CONTEÚDO */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    flex: 1;
+}
+
+/* ÁREA DE BUSCA */
+
+.busca {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.busca input {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.busca input:focus {
+    border-color: #1769aa;
+}
+
+.busca button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1769aa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.busca button:hover {
+    background-color: #0d4f82;
+    transform: scale(1.03);
+}
+
+/* MENSAGENS */
+
+#mensagem {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+/* RESULTADO */
+
+#resultado {
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD DO PAÍS */
+
+.card-pais {
+    background-color: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.card-pais h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card-pais img {
+    width: 220px;
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* INFORMAÇÕES */
+
+.informacoes {
+    text-align: left;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.informacoes p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    main {
+        width: 92%;
+        margin: 25px auto;
+    }
+
+    .busca {
+        flex-direction: column;
+    }
+
+    .busca button {
+        width: 100%;
+    }
+
+    .card-pais {
+        padding: 20px;
+    }
+
+    .card-pais h2 {
+        font-size: 24px;
+    }
+
+}
+
+
