@@ -19,7 +19,15 @@ https://countries.dev/docs
 
 ## 🔎 Endpoint utilizado
 
-Busca de país pelo nome:
+A pesquisa dos países deve ser realizada utilizando o nome do país em inglês.
+
+Exemplo:
+
+- Brasil → `brazil`
+- Estados Unidos → `united states`
+- França → `france`
+
+Endpoint utilizado:
 
 https://countries.dev/name/{nome-do-pais}
 
@@ -29,7 +37,7 @@ https://countries.dev/name/brazil
 
 ## 🚀 Funcionalidades
 
-- Pesquisa de países pelo nome
+- Pesquisa de países pelo nome  
 - Consulta de dados através de uma API pública
 - Exibição da bandeira do país
 - Exibição do nome
