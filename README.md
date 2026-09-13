@@ -62,3 +62,8 @@ https://countries.dev/name/brazil
 ## 🌎 Site publicado
 
 [Visualizar o projeto no GitHub Pages](https://viniciusss1.github.io/Bootcamp2-App/)
+
+
+## 📁 Repositório
+
+[Repositório do projeto](https://github.com/Viniciusss1/Bootcamp2-App)
