@@ -1,8 +1,6 @@
 # 🌎 Explorador de Países
 
-## 👨‍💻 Autor :
-
-Vinicius Prates Marques Angelo
+## 👨‍💻 Autor : Vinicius Prates Marques Angelo
 
 ## RA : 22612264
 
