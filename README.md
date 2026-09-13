@@ -58,3 +58,7 @@ https://countries.dev/name/brazil
 3. Abra o arquivo `index.html`.
 4. Execute utilizando o Live Server ou abra o arquivo diretamente no navegador.
 5. Digite o nome de um país e clique em "Buscar".
+
+## 🌎 Site publicado
+
+[Visualizar o projeto no GitHub Pages](https://viniciusss1.github.io/Bootcamp2-App/)
