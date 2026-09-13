@@ -41,3 +41,12 @@ https://countries.dev/name/brazil
 - Exibição da área
 - Tratamento de erros
 - Interface responsiva para celulares
+
+ ## 🛠️ Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Fetch API
+- GitHub
+- GitHub Pages
