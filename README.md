@@ -50,3 +50,11 @@ https://countries.dev/name/brazil
 - Fetch API
 - GitHub
 - GitHub Pages
+
+## 💻 Como executar localmente
+
+1. Clone este repositório.
+2. Abra a pasta do projeto no VS Code.
+3. Abra o arquivo `index.html`.
+4. Execute utilizando o Live Server ou abra o arquivo diretamente no navegador.
+5. Digite o nome de um país e clique em "Buscar".
