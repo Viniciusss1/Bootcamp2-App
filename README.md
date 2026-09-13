@@ -26,3 +26,18 @@ https://countries.dev/name/{nome-do-pais}
 Exemplo:
 
 https://countries.dev/name/brazil
+
+## 🚀 Funcionalidades
+
+- Pesquisa de países pelo nome
+- Consulta de dados através de uma API pública
+- Exibição da bandeira do país
+- Exibição do nome
+- Exibição da capital
+- Exibição da população
+- Exibição da região e sub-região
+- Exibição da moeda
+- Exibição do idioma
+- Exibição da área
+- Tratamento de erros
+- Interface responsiva para celulares
