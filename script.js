@@ -1,3 +1,5 @@
+//Adiciona interatividade ao site.//
+
 const campoPais = document.getElementById("campo-pais");
 const botaoBuscar = document.getElementById("botao-buscar");
 const resultado = document.getElementById("resultado");
